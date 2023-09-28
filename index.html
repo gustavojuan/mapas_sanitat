@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa de Lugares</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.4.1/leaflet.markercluster.js"></script>
+
+
+    <!-- Load Esri Leaflet from CDN -->
+    <script src="https://unpkg.com/esri-leaflet@3.0.10/dist/esri-leaflet.js"></script>
+    <!-- Load Esri Leaflet Vector from CDN -->
+    <script src="https://unpkg.com/esri-leaflet-vector@4.1.0/dist/esri-leaflet-vector.js" crossorigin=""></script>
+
+    <!-- Load Leaflet MarkerCluster and Esri Leaflet Cluster from CDN -->
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css"
+            crossorigin=""
+    />
+    <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+
+    />
+
+    <link rel="stylesheet" href="css/styles.css">
+
+
+
+</head>
+<body>
+
+
+<nav>
+    <div class="container-fluid">
+        <div class="row justify-content-end align-items-center">
+            <div class="col-auto">
+                <h2 class="display-2">Gestió d'Actius</h2>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <!-- Contenedor principal -->
+    <div class="map-container">
+        <!-- Mapa que ocupa casi toda la pantalla -->
+        <div id="map" class="custom-map">
+            <!-- Aquí puedes insertar tu mapa -->
+        </div>
+        <button id="toggleSearch" class="d-md-none">
+            <i class="fas fa-search"></i>
+        </button>
+        <!-- Buscador -->
+        <div class="custom-search">
+
+
+            <button id="closeSearch" class="close-search d-md-none">
+                <i class="fas fa-times"></i>
+            </button>
+            <!-- Aquí puedes colocar tus selects y otros elementos del buscador -->
+            <!-- Columna de filtros (6 columnas) -->
+
+            <div class="form-group">
+                <label for="modalidad">Modalidad:</label>
+                <select id="modalidad" class="form-select"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="acceso">Acceso:</label>
+                <select id="acceso" class="form-select"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="condiciones">Condiciones:</label>
+                <select id="condiciones" class="form-select"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="barrio">Barrio:</label>
+                <select id="barrio" class="form-select"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="establecimiento">Establecimiento:</label>
+                <select id="establecimiento" class="form-select"></select>
+            </div>
+
+            <div class="form-group">
+                <label for="finalidad">Finalidad:</label>
+                <select id="finalidad" class="form-select"></select>
+            </div>
+
+        </div>
+
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="custom-footer"></footer>
+
+
+<script type="module" src="./js/main.js">
+
+
+</script>
+</body>
+</html>

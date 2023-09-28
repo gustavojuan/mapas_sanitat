@@ -1,0 +1,122 @@
+export const locationsData = [
+    {
+        nombre: "Parque Central",
+        descripcion: "Gran parque con zonas verdes, juegos infantiles y rutas para bicicletas. Perfecto para un día en familia o hacer ejercicio al aire libre.",
+        modalidad: "Presencial",
+        acceso: "Gratuït",
+        condiciones: "Lliure",
+        coordenadas: [38.965432, -0.182567],
+        barrio: "Centro",
+        establecimiento: "No",
+        finalidad: "Recreación, Actividad física",
+        edad: "Todas las edades"
+    },
+    {
+        nombre: "Gimnasio FitnessLife",
+        descripcion: "Gimnasio moderno con equipos de última generación y entrenadores profesionales. Ofrece clases de fitness y programas personalizados.",
+        modalidad: "Presencial",
+        acceso: "Pago",
+        condiciones: "Requiere membresía",
+        coordenadas: [38.970123, -0.184567],
+        barrio: "Polígono Industrial",
+        establecimiento: "Sí",
+        finalidad: "Salud, Actividad física",
+        edad: "Adultos"
+    },
+    {
+        nombre: "Playa de Gandia",
+        descripcion: "Amplia playa de arena dorada con aguas cristalinas. Ideal para tomar el sol, nadar y practicar deportes acuáticos.",
+        modalidad: "Exterior",
+        acceso: "Gratuït",
+        condiciones: "Lliure",
+        coordenadas: [38.976789, -0.170123],
+        barrio: "Playa",
+        establecimiento: "No",
+        finalidad: "Recreación, Deporte",
+        edad: "Todas las edades"
+    },
+    {
+        nombre: "Teatro Municipal El Liceu",
+        descripcion: "Teatro histórico con una programación variada de obras de teatro, conciertos y eventos culturales. Un lugar emblemático de la ciudad.",
+        modalidad: "Presencial",
+        acceso: "Pago",
+        condiciones: "Compra de entradas",
+        coordenadas: [38.966543, -0.178765],
+        barrio: "Casco Antiguo",
+        establecimiento: "Sí",
+        finalidad: "Cultura, Entretenimiento",
+        edad: "Todas las edades"
+    },
+    {
+        nombre: "Escuela de Arte Creativa",
+        descripcion: "Escuela de arte que ofrece clases de pintura, escultura, diseño gráfico y más. Abierta a estudiantes de todas las edades y niveles de habilidad.",
+        modalidad: "Presencial",
+        acceso: "Pago",
+        condiciones: "Inscripción previa",
+        coordenadas: [38.963456, -0.187654],
+        barrio: "Centro",
+        establecimiento: "Sí",
+        finalidad: "Educación artística",
+        edad: "Todas las edades"
+    },
+    {
+        nombre: "Centro Deportivo SportyLife",
+        descripcion: "Complejo deportivo con piscinas, canchas de tenis, gimnasio y clases de fitness. Abierto para miembros y no miembros.",
+        modalidad: "Presencial",
+        acceso: "Pago",
+        condiciones: "Membresía opcional",
+        coordenadas: [38.968765, -0.184321],
+        barrio: "Parque",
+        establecimiento: "Sí",
+        finalidad: "Deporte, Salud",
+        edad: "Todas las edades"
+    },
+    {
+        nombre: "Parque Infantil HappyLand",
+        descripcion: "Área de juegos infantiles con columpios, toboganes y áreas para picnics. Un lugar perfecto para los más pequeños y sus familias.",
+        modalidad: "Presencial",
+        acceso: "Gratuït",
+        condiciones: "Lliure",
+        coordenadas: [38.971234, -0.185678],
+        barrio: "Raval",
+        establecimiento: "No",
+        finalidad: "Recreación, Infancia",
+        edad: "Niños (2-12 años)"
+    },
+    {
+        nombre: "Centro de Yoga Serenidad",
+        descripcion: "Espacio tranquilo para practicar yoga y meditación. Clases para principiantes y avanzados, promoviendo la relajación y el bienestar.",
+        modalidad: "Presencial",
+        acceso: "Pago",
+        condiciones: "Clases abiertas",
+        coordenadas: [38.968912, -0.181234],
+        barrio: "Casco Antiguo",
+        establecimiento: "Sí",
+        finalidad: "Bienestar, Actividad física",
+        edad: "Adultos"
+    },
+    {
+        nombre: "Biblioteca Municipal La Sabiduría",
+        descripcion: "Biblioteca con una amplia colección de libros, revistas y recursos digitales. Ofrece actividades culturales y servicios de lectura.",
+        modalidad: "Presencial",
+        acceso: "Gratuït",
+        condiciones: "Lliure",
+        coordenadas: [38.966789, -0.179876],
+        barrio: "Centro",
+        establecimiento: "Sí",
+        finalidad: "Cultura, Educación",
+        edad: "Todas las edades"
+    },
+    {
+        nombre: "Club de Ajedrez Los Peones",
+        descripcion: "Club de ajedrez que organiza torneos y partidas amistosas. Abierto a jugadores de todas las edades y niveles de habilidad.",
+        modalidad: "Presencial",
+        acceso: "Pago",
+        condiciones: "Cuota de membresía",
+        coordenadas: [38.965432, -0.181234],
+        barrio: "Casco Antiguo",
+        establecimiento: "Sí",
+        finalidad: "Ajedrez, Entretenimiento",
+        edad: "Todas las edades"
+    }
+];
