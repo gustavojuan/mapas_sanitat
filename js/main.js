@@ -1,16 +1,20 @@
 
 // JavaScript para mostrar/ocultar el formulario de búsqueda y cambiar entre botón de lupa y botón de cerrar
 document.addEventListener("DOMContentLoaded", function () {
+
+
     const toggleSearchButton = document.getElementById("toggleSearch");
     const closeSearchButton = document.getElementById("closeSearch");
     const customSearch = document.querySelector(".custom-search");
 
     toggleSearchButton.addEventListener("click", function () {
-        customSearch.classList.add("active");
+        customSearch.classList.add("d-block");
+        closeSearchButton.classList.add('.d-block');
     });
 
     closeSearchButton.addEventListener("click", function () {
-        customSearch.classList.remove("active");
+        customSearch.classList.remove("d-block");
+        closeSearchButton.classList.remove('.d-block');
     });
 });
 // Datos de prueba en formato JSON
